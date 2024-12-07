@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeLane | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/logoo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Images/logoo.jpeg" width="200px" height="80px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="Images/cart.png" width="28px" height="28px"></a>
+                <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Where Style Meets <br> Sophistication!</h1>
+                    <p><br>Your ultimate online fashion destination, offering a curated collection of chic, <br>high-quality clothing and accessories to elevate your style effortlessly.</p>
+                    <a href="products.html" class="btn">Explore Now &#10170;</a>
+                </div>
+                <div class="col-2">
+                    <img src="Images/banner.jpg" height="500px" width="560px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----featured categories---->
+    <div class="categories">
+        <div class="small_container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="Images/category-2.jpg" height="472px">
+                </div>
+                <div class="col-3">
+                    <img src="Images/category-3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+    <!----featured products---->
+    <div class="small_container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html"><img src="Images/product-1.jpg"></a>
+                <a href="product-details.html"><h4>Square Neck Pleated Dress</h4></a>
+                <p>₹2365.32</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-2.jpg">
+                <h4>Ebony Zip-Up Hoodie</h4>
+                <p>₹1235.49</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-3.jpg">
+                <h4>Linen Swing Shirt Dress</h4>
+                <p>₹3294.21</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-4.jpg">
+                <h4>Luisa Sheepskin Jacket</h4>
+                <p>₹5294.21</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <!----latest products---->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/product-6.jpg">
+                <h4>Champagne Unbalanced Skirt</h4>
+                <p>₹5432.55</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-7.jpg">
+                <h4>Button Knit Co-ord set</h4>
+                <p>₹4235.91</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-8.jpg">
+                <h4>Rosy Bloom Split Dress</h4>
+                <p>₹3294.21</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-5.jpg">
+                <h4>Black Tunic Pencil Dress</h4>
+                <p>₹5294.21</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/product-9.jpg">
+                <h4>Vintage Homecoming Dress</h4>
+                <p>₹2365.32</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-10.jpg">
+                <h4>Sandstone Classic Coat</h4>
+                <p>₹1235.49</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-11.jpg">
+                <h4>Ivory Taupe Attire</h4>
+                <p>₹3294.21</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product-12.jpg">
+                <h4>Carbon Chic Leather Pant</h4>
+                <p>₹5294.21</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----offer---->
+    <div class="offer">
+        <div class="small_container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images/exclusive.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exlusively available on LuxeLane</p>
+                    <h1>Blush Beige Eve Gown</h1>
+                    <small>Discover timeless elegance with Luxelane’s exclusive Creamy Pink Evening Gown, crafted for a refined touch.</small><br>
+                    <a href="" class="btn">Buy Now &#10170</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----testimonial---->
+    <div class="testimonial">
+        <div class="small_container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I’m so impressed with the quality of LuxeLane’s collections! The designs are unique, and the fabric feels amazing.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Images/user-1.png">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>I bought a dress from LuxeLane, and I can’t stop wearing it. It’s elegant, comfortable, and always gets me compliments!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Images/user-2.png">
+                    <h3>Kim Yujin</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Shopping with LuxeLane has been a delight! Their pieces are stylish, and the customer service is fantastic.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Images/user-3.png">
+                    <h3>Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----brands---->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="Images/logo-dior.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-gucci.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-h&m.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-chanel.png">
+                </div>
+                <div class="col-5">
+                    <img src="Images/logo-zara.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----footer---->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="Images/play-store.png">
+                        <img src="Images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Images/logoo.jpeg">
+                    <p>LuxeLane aims to deliver timeless elegance through exclusive, high-quality fashion that inspires confidence and style.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Easy Tutorials</p>
+        </div>
+    </div>
+
+    <!----js for toggle menu---->
+    <script>
+        var MenuItems=document.getElementById("MenuItems");
+        MenuItems.style.maxHeight= "0px";
+        function menutoggle()
+        {
+            if(MenuItems.style.maxHeight== "0px")
+            {
+                MenuItems.style.maxHeight= "200px";
+            } 
+            else
+            {
+                MenuItems.style.maxHeight= "0px";
+            }
+        }
+    </script>
+</body>
+</html>
